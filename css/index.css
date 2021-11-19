@@ -197,6 +197,11 @@
   text-decoration: none;
   color: black;
 }
+
+.grid-section_item {
+  margin-top: 100px;
+}
+
 .grid-section .img1 {
   background: url(/images/tile_macbookpro__cx0ur0qg9biq_large_2x.jpg) no-repeat
     center center/cover;
@@ -207,6 +212,12 @@
     center center/cover;
 }
 
+.img2_span {
+  display: block;
+  color: #e34140;
+  font-size: 22px;
+  padding: 0;
+}
 .grid-section .img3 {
   background: url(/images/tile_homepod_mini__b73w4z3ljymu_large_2x.jpg)
     no-repeat center center/cover;
@@ -226,24 +237,6 @@
   background: url(/images/promo_dickinson__c9ea4l2f5rki_large_2x.jpg) no-repeat
     center center/cover;
   color: white;
-}
-
-.font-sizing_h1 {
-  font-size: 50px;
-}
-
-.grid-section_item {
-  margin-top: 100px;
-}
-
-.font-sizing_h2 {
-  font-size: 30px;
-  margin: 0;
-}
-
-.grid-section_item .links {
-  margin: 13px;
-  font-size: 22px;
 }
 
 .img6_logo {
@@ -267,4 +260,18 @@
   text-align: center;
   font-size: 25px;
   font-weight: lighter;
+}
+
+.font-sizing_h1 {
+  font-size: 50px;
+}
+
+.font-sizing_h2 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.grid-section_item .links {
+  margin: 13px;
+  font-size: 22px;
 }
