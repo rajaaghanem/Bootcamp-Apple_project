@@ -155,3 +155,12 @@
   width: 100%;
   height: 70%;
 }
+
+/*-----------------------bottom row--------------------*/
+
+.third-row-link {
+  background: url(/images/hero_iphone_13__f194u1rdooeq_large_2x.jpg) no-repeat
+    center center/cover;
+  width: 100%;
+  height: 100%;
+}
