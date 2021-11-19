@@ -191,6 +191,10 @@
   border: 2px solid black;
 }
 
+.grid_img-cover {
+  width: 100%;
+  height: 100%;
+}
 .grid-section .img1 {
   background: url(/images/tile_macbookpro__cx0ur0qg9biq_large_2x.jpg) no-repeat
     center center/cover;
