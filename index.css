@@ -67,8 +67,6 @@
   padding: 30px;
   display: grid;
   grid-template-rows: 3;
-  /* align-items: center; */
-  /* justify-content: center; */
 }
 
 .main_text .text_paragraph > h1 {
@@ -92,4 +90,23 @@
   font-size: 28px;
   font-weight: lighter;
   margin: 10px;
+}
+
+.main_images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_images-grid {
+  width: 70vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+
+.main_images-grid img {
+  width: 380px;
+  height: 380px;
 }
