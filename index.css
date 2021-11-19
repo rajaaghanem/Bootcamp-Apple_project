@@ -1,0 +1,38 @@
+.navbar {
+  height: 15vh;
+  display: grid;
+  grid-template-rows: 2;
+}
+
+.navbar_top {
+  height: 7.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(51, 51, 51);
+}
+
+.navbar_top_links {
+  display: flex;
+  padding: 8px;
+}
+
+.navbar_top_links > div {
+  margin: 0 20px;
+  padding: 7px;
+}
+
+.navbar_top_links > div > a,
+.navbar_bottom > div > a {
+  text-decoration: none;
+  color: white;
+  padding: 2px;
+}
+
+.navbar_bottom {
+  height: 7.5vh;
+  background-color: #e34140;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
