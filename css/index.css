@@ -225,6 +225,7 @@
 .grid-section .img6 {
   background: url(/images/promo_dickinson__c9ea4l2f5rki_large_2x.jpg) no-repeat
     center center/cover;
+  color: white;
 }
 
 .font-sizing_h1 {
@@ -243,4 +244,27 @@
 .grid-section_item .links {
   margin: 13px;
   font-size: 22px;
+}
+
+.img6_logo {
+  width: 500px;
+  height: 174px;
+  margin-right: 70px;
+}
+
+.img6_logo > img {
+  margin-left: 250px;
+  margin-top: 430px;
+}
+
+.img6_text {
+  width: 100%;
+  display: inline-block;
+  margin-left: 200px;
+}
+
+.img6_text > h3 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: lighter;
 }
