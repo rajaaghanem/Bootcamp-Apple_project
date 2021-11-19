@@ -49,9 +49,39 @@
 
 /*-----------------main content------------------*/
 .main-content {
-  height: 180vh;
+  height: 300vh;
+  display: grid;
+  grid-template-rows: 3;
+  grid-gap: 20px 0;
+  background-color: #eeeffe;
 }
 
+.main_text > a {
+  text-decoration: none;
+  color: black;
+}
 .column-hight {
-  height: 60vh;
+  height: 100vh;
+}
+
+.main-content_top {
+  border: 2px solid black;
+}
+
+.main_text {
+  padding: 30px;
+  display: grid;
+  grid-template-rows: 2;
+  align-items: center;
+  justify-content: center;
+}
+
+.main_text .text_paragraph {
+  font-size: 30px;
+}
+
+.gift-img_img,
+.text_shop-gifts {
+  display: flex;
+  justify-content: center;
 }
