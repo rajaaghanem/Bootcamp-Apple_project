@@ -1,15 +1,14 @@
-.navbar {
-  height: 15vh;
-  display: grid;
-  grid-template-rows: 2;
-}
+/*-----------------navbar------------------*/
 
 .navbar_top {
   height: 7.5vh;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: rgb(51, 51, 51);
+  position: fixed;
+  top: 0;
 }
 
 .navbar_top_links {
@@ -26,22 +25,33 @@
 }
 
 .navbar_top_links > div > a,
-.navbar_bottom > div > a {
+.navbar_bottom_p > p > span > a {
   text-decoration: none;
   color: #cad0d6;
   padding: 2px;
 }
 
-.navbar_bottom > div > a {
+.navbar_bottom_p > p > span > a {
   color: white;
+  padding: 0;
 }
 
 .navbar_bottom {
-  height: 7.5vh;
+  display: block;
+  height: 15vh;
   background-color: #e34140;
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: center;
   color: white;
   font-size: 19px;
+}
+
+/*-----------------main content------------------*/
+.main-content {
+  height: 180vh;
+}
+
+.column-hight {
+  height: 60vh;
 }
