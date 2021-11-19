@@ -49,16 +49,23 @@
 
 /*-----------------main content------------------*/
 .main-content {
-  height: 300vh;
+  height: 330vh;
   display: grid;
   grid-template-rows: 3;
-  background-color: #eeeffe;
+  /* row-gap: 10px; */
 }
 
+.main-content_top {
+  overflow: hidden;
+}
 .column-hight {
   height: 100vh;
 }
 
+.first-row-link {
+  overflow: hidden;
+  background-color: #eeeffe;
+}
 .main_text {
   padding: 30px;
   display: grid;
@@ -108,59 +115,60 @@
 }
 
 /*----------------------middle row ------------------*/
-.main-content_middle {
-  border: 2px solid black;
-  background-color: #fbfbfd;
-}
-
-.main-content_middle_text {
-  display: grid;
-  grid-template-rows: 3;
-  justify-content: center;
-  align-items: center;
-  margin-top: 80px;
-}
 
 .secound-row-link {
   text-decoration: none;
   color: black;
+  background: url(/images/hero_iphone_13pro__dhnsegysa42u_large_2x.jpg)
+    no-repeat center center/cover;
+  width: 100%;
+  height: 97%;
 }
 
-.main-content_middle_text .iphone > h1 {
+.iphone {
   font-size: 70px;
   margin: 0%;
+  text-align: center;
 }
 
-.main-content_middle_text .oh-so > h2 {
+.oh-so {
   font-size: 40px;
   text-align: center;
   font-weight: lighter;
   margin: 5px;
 }
 
-.main-content_middle_text .links > h3 {
+.links {
   text-align: center;
   font-size: 26px;
 }
 
-.main-content_middle_text .links > h3 > object > a {
+.a-style {
   padding: 15px;
   text-decoration: none;
   color: #0066cc;
   font-weight: lighter;
 }
 
-.main-content_middle_img {
-  background: url(/images/copy_hero.jpg) no-repeat center center/cover;
-  width: 100%;
-  height: 70%;
+.main-content_middle {
+  padding-top: 70px;
 }
-
 /*-----------------------bottom row--------------------*/
 
 .third-row-link {
   background: url(/images/hero_iphone_13__f194u1rdooeq_large_2x.jpg) no-repeat
     center center/cover;
   width: 100%;
-  height: 100%;
+  height: 97%;
+  text-decoration: none;
+  color: #f5f5f7;
+  /* overflow: hidden; */
+}
+
+.main-content_bottom .oh-so {
+  color: #fdc1ea;
+}
+
+.main-content_bottom {
+  padding-top: 70px;
 }
