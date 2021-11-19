@@ -25,8 +25,12 @@
 .navbar_top_links > div > a,
 .navbar_bottom > div > a {
   text-decoration: none;
-  color: white;
+  color: #cad0d6;
   padding: 2px;
+}
+
+.navbar_bottom > div > a {
+  color: white;
 }
 
 .navbar_bottom {
@@ -35,4 +39,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
+  font-size: 19px;
 }
