@@ -296,6 +296,10 @@
   margin: 0 210px;
 }
 
+.footer_top_text > p > a {
+  text-decoration: none;
+  color: #1d1d1f;
+}
 .footer_middle {
   height: 85vh;
 }
@@ -380,4 +384,15 @@
 .footer_bottom-start,
 .footer_top_text {
   border-bottom: 1px solid #c1c1cc;
+}
+
+.footer_bottom-start > p > a {
+  text-decoration: none;
+  color: #0066cc;
+}
+
+.bottom-start,
+.footer_bottom-start > p,
+.footer_top_text {
+  color: #6e6e7a;
 }
