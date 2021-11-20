@@ -374,6 +374,7 @@
   border-right: 1px solid #c1c1cc;
 }
 
-.footer_bottom-start {
+.footer_bottom-start,
+.footer_top_text {
   border-bottom: 1px solid #c1c1cc;
 }
