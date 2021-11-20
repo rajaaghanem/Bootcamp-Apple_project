@@ -47,6 +47,9 @@
   font-size: 19px;
 }
 
+.hover-white:hover {
+  color: white;
+}
 /*-----------------main content------------------*/
 .main-content {
   height: 330vh;
@@ -148,6 +151,10 @@
   text-decoration: none;
   color: #0066cc;
   font-weight: lighter;
+}
+
+.a-style:hover {
+  text-decoration: underline;
 }
 
 .main-content_middle {
@@ -324,8 +331,7 @@
   font-size: 18px;
 }
 
-.footer_middle-grid > div > h4 > a {
-  text-decoration: none;
+.footer_middle-grid > div > h4 {
   color: #1d1d1f;
   font-size: 18px;
 }
@@ -395,4 +401,8 @@
 .footer_bottom-start > p,
 .footer_top_text {
   color: #6e6e7a;
+}
+
+.link-hover:hover {
+  text-decoration: underline;
 }
