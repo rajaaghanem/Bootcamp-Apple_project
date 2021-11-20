@@ -275,3 +275,29 @@
   margin: 13px;
   font-size: 22px;
 }
+
+/*------------------footer-----------------*/
+
+.footer {
+  height: 140vh;
+  margin-top: 20px;
+  background-color: #f5f5f7;
+}
+
+.footer > div {
+  border: 2px solid black;
+}
+.footer_top {
+  height: 35vh;
+}
+
+.footer_top_text {
+  margin: 0 210px;
+}
+.footer_middle {
+  height: 85vh;
+}
+
+.footer_bottom {
+  height: 15vh;
+}
