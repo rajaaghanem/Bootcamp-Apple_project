@@ -279,16 +279,20 @@
 /*------------------footer-----------------*/
 
 .footer {
-  height: 140vh;
+  height: 145vh;
   margin-top: 20px;
+  padding-top: 10px;
   background-color: #f5f5f7;
 }
 
 .footer_top {
-  height: 35vh;
+  height: 40vh;
+  font-size: 18px;
+  color: #424256;
 }
 
-.footer_top_text {
+.footer_top_text,
+.footer_bottom {
   margin: 0 210px;
 }
 
@@ -298,7 +302,6 @@
 
 .footer_bottom {
   height: 15vh;
-  margin: 0 210px;
 }
 
 .footer_middle-grid {
